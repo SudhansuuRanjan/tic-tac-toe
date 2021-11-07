@@ -160,6 +160,7 @@ function DisplayNone(){
 function Replay(){
     DisplayNone();
     win = 0;
+    temp = 0;
   for (let i = 0; i < num; i++) { 
       arr[i] = 0;
   document.querySelectorAll(".btn")[i].classList.remove("red");
