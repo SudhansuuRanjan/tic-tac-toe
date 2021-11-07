@@ -167,6 +167,7 @@ function Replay(){
   document.querySelectorAll(".btn")[i].classList.remove("blue");
   document.querySelectorAll(".btn")[i].innerHTML = ``;
   }
+  msgtxt.innerHTML = "Let's Start !!!";
 }
 
 function NoOne(){
