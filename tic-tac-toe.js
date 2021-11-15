@@ -20,6 +20,9 @@ function playAudio() {
   x.play(); 
 } 
 
+window.onload = () => {
+  start.play();
+};
 
 for (let i = 0; i < num; i++) { 
   document.querySelectorAll(".btn")[i].addEventListener("click", function(event) {
